@@ -1,0 +1,50 @@
+@keyframes caer {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .Refe {
+    .mues {
+      max-width: 20vw; 
+      max-height: 20vw; 
+      margin: 50px; 
+      margin-bottom: 50px; 
+      animation: caer 0.8s ease forwards; 
+  
+    
+    }
+  }
+
+
+
+//   ENCUESTA
+
+@keyframes slide-up {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .comentarios form {
+    animation: slide-up 0.8s ease forwards;
+  }
+  
+  .form-group {
+    opacity: 0;
+  }
+  
+  .comentarios form .form-group {
+    animation: slide-up 0.8s ease forwards;
+    animation-delay: 0.2s; 
+  }

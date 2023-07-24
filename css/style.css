@@ -29,6 +29,8 @@ h1 {
 h2 {
   color: #ca6680;
   background-color: #edc79b;
+  font-family: "Satisfy", cursive;
+  text-align: center;
 }
 
 h3 {
@@ -39,6 +41,47 @@ h3 {
 h4 {
   color: #ca6680;
   background-color: #edc79b;
+}
+
+@keyframes caer {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.Refe .mues {
+  max-width: 20vw;
+  max-height: 20vw;
+  margin: 50px;
+  margin-bottom: 50px;
+  animation: caer 0.8s ease forwards;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.comentarios form {
+  animation: slide-up 0.8s ease forwards;
+}
+
+.form-group {
+  opacity: 0;
+}
+
+.comentarios form .form-group {
+  animation: slide-up 0.8s ease forwards;
+  animation-delay: 0.2s;
 }
 
 .buscador {
@@ -74,6 +117,7 @@ body {
 
 p {
   text-align: justify;
+  font-family: "Raleway", sans-serif;
 }
 
 .blog p {

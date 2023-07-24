@@ -3,6 +3,8 @@
 @import './secciones/footer';
 @import './secciones/main-index';
 @import './utilidades/titulos';
+@import './secciones/transformacion';
+
 
 
 
@@ -55,6 +57,7 @@ body {
 
 p {
     text-align: justify;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -67,6 +70,7 @@ p {
     background-color: #d57a66ff;
     font-family: 'Raleway', sans-serif;
 }
+
 
 .section img{
     max-width: 500px;
