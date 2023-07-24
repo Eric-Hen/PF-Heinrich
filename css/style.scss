@@ -1,3 +1,13 @@
+@import './utilidades/reset';
+@import './secciones/header';
+@import './secciones/footer';
+@import './secciones/main-index';
+
+
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
@@ -5,33 +15,7 @@
 
 
 
-h1 {
-    color: #ca6680ff;
-    background-color: #edc79bff;
-    font-family: sans-serif;
-    text-align: center;
-    font-family: 'Satisfy', cursive;
 
-
-
-
-}
-
-h2 {
-    color: #ca6680ff;
-    background-color: #edc79bff;
-}
-
-h3 {
-    color: #ca6680ff;
-    background-color: #edc79bff;
-}
-
-
-h4 {
-    color: #ca6680ff;
-    background-color: #edc79bff;
-}
 
 .buscador {
     background-color: #edc79bff;
@@ -72,13 +56,6 @@ p {
     text-align: justify;
 }
 
-footer {
-    background-color: #edc79bff;
-}
-
-footer li {
-    color: #ca6680ff;
-}
 
 .blog p {
     background-color: #d57a66ff;
@@ -94,6 +71,3 @@ footer li {
     max-width: 500px;
 }
 
-.header{
-    background-color:#dc3545;
-}

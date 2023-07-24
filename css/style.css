@@ -1,26 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
-h1 {
-  color: #ca6680;
-  background-color: #edc79b;
+* {
   font-family: sans-serif;
-  text-align: center;
-  font-family: "Satisfy", cursive;
+  margin: 0;
+  padding: 0;
 }
 
-h2 {
-  color: #ca6680;
+.header {
+  background-color: #dc3545;
+}
+
+footer {
   background-color: #edc79b;
 }
 
-h3 {
+footer li {
   color: #ca6680;
-  background-color: #edc79b;
-}
-
-h4 {
-  color: #ca6680;
-  background-color: #edc79b;
 }
 
 .buscador {
@@ -58,14 +53,6 @@ p {
   text-align: justify;
 }
 
-footer {
-  background-color: #edc79b;
-}
-
-footer li {
-  color: #ca6680;
-}
-
 .blog p {
   background-color: #d57a66;
   font-family: "Raleway", sans-serif;
@@ -78,8 +65,4 @@ footer li {
 
 .section img {
   max-width: 500px;
-}
-
-.header {
-  background-color: #dc3545;
 }/*# sourceMappingURL=style.css.map */
