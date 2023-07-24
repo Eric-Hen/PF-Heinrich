@@ -18,6 +18,29 @@ footer li {
   color: #ca6680;
 }
 
+h1 {
+  color: #ca6680;
+  background-color: #edc79b;
+  font-family: sans-serif;
+  text-align: center;
+  font-family: "Satisfy", cursive;
+}
+
+h2 {
+  color: #ca6680;
+  background-color: #edc79b;
+}
+
+h3 {
+  color: #ca6680;
+  background-color: #edc79b;
+}
+
+h4 {
+  color: #ca6680;
+  background-color: #edc79b;
+}
+
 .buscador {
   background-color: #edc79b;
 }
