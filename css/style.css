@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 * {
@@ -53,12 +54,37 @@ h4 {
     opacity: 1;
   }
 }
+.Refe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+}
 .Refe .mues {
-  max-width: 20vw;
-  max-height: 20vw;
-  margin: 50px;
-  margin-bottom: 50px;
-  animation: caer 0.8s ease forwards;
+  width: 90%; /* Ajusta el ancho de las imágenes al 90% del contenedor */
+  max-width: 100%;
+  height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  /* Centramos horizontal y verticalmente las imágenes */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Refe .mues:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 767px) {
+  .Refe .mues {
+    width: 100%; /* Ajusta el ancho de las imágenes en dispositivos móviles al 100% del contenedor */
+    margin: 15px; /* Ajusta el margen entre las imágenes en dispositivos móviles */
+  }
+}
+.Refe .mues img {
+  /* Estilos específicos para las imágenes dentro de .mues */
+  max-width: 100%; /* O cualquier otro valor que desees para el ancho de las imágenes */
 }
 
 @keyframes slide-up {
@@ -128,8 +154,4 @@ p {
 .ini p {
   background-color: #d57a66;
   font-family: "Raleway", sans-serif;
-}
-
-.section img {
-  max-width: 500px;
 }/*# sourceMappingURL=style.css.map */

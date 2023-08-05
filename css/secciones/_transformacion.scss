@@ -1,27 +1,57 @@
 @keyframes caer {
-    0% {
-      transform: translateY(-100%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
   }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+.Refe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  background-color: #d57a66ff; 
+
+  .col-12 {
+   
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .mues {
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+
   
-  .Refe {
-    .mues {
-      max-width: 20vw; 
-      max-height: 20vw; 
-      margin: 50px; 
-      margin-bottom: 50px; 
-      animation: caer 0.8s ease forwards; 
-  
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    @media (max-width: 767px) {
+      width: 100%;
+      margin: 15px;
     }
   }
 
-
+  .mues img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+}
 
 //   ENCUESTA
 
